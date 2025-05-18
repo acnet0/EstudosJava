@@ -4,12 +4,10 @@ public class ProdutoTeste {
 
 	public static void main(String[] args) {
 		
-		Produto p1 = new Produto();
-		p1.nome = "Notebook";
-		p1.preco = 4256.89;
-		p1.desconto = 0.25;
+		Produto p1 = new Produto("Notebook", 4256.89, 0.25);
+
 		
-		var p2 = new Produto(); //nesse caso o tipo é identificado através da inferencia
+		var p2 = new Produto(); //nesse caso o tipo é identificado através da inferencia e utiliza o construtor padrao (sem parametros)
 		p2.nome = "Caneta Preta";
 		p2.preco = 12.56;
 		p2.desconto = 0.29;
