@@ -3,13 +3,17 @@ package classe;
 public class AreaCirc {
 
 	double raio;
-	static double pi = 3.14;
+	final static double PI = 3.14; // em maiusclo por ser constante, logo FINAL
 	
 	AreaCirc(double raioInicial) {
 		raio = raioInicial;
 	}
 	
 	double area() {
-		return pi * Math.pow(raio, 2); //pow é um metodo estatico
+		return PI * Math.pow(raio, 2); //pow é um metodo estatico
+	}
+	
+	static double area(double raio) {
+		return PI * Math.pow(raio, 2);
 	}
 }
