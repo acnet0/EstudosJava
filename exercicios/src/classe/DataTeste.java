@@ -6,11 +6,15 @@ public class DataTeste {
 	public static void main(String[] args) {
 		
 	Data d1 = new Data();
-	
-	System.out.println(d1.obterDataFormatada()); //d1 contem os valores que precisamos para aliementar e puxar a formatacao necessaria
-	
+	d1.ano = 2021;
 	var d2 = new Data(31, 12, 2020);
 	
+	String dataFormatada1 = d1.obterDataFormatada();
+	
+	System.out.println(dataFormatada1); //d1 contem os valores que precisamos para aliementar e puxar a formatacao necessaria
 	System.out.println(d2.obterDataFormatada());
+	
+	d1.imprimirDataFormatada();
+	d2.imprimirDataFormatada();
 	}
 }
