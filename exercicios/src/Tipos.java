@@ -86,7 +86,7 @@ public class Tipos {
         }
 
          */
-    //While
+    /*While
         int contador = 0;
         while(contador < 10) {
             System.out.println(contador + "- Estou no while");
@@ -95,7 +95,18 @@ public class Tipos {
         if (contador >=10) {
             System.out.println(contador + "- Saí do while");
         }
+     */
+/ Casting
+    double resultado = 0.0;
+    int resultadoInt = (int) resultado; casting explicito
 
+    int meuInt = 10;
+    double meuDouble = meuInt; casting implicito
+
+    String meuString = "10";
+    int meuInt2 = Integer.parseInt(meuString); casting explicito
+
+    String minhaString = String.valueOf(meuInt2);
     }
 }
 
