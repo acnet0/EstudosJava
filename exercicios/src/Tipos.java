@@ -25,7 +25,7 @@ public class Tipos {
 //        float = 10.5f
 //        double = 20.5;
 //        char c = 'A';
-          String str = "Neto";
+//          String str = "Neto";
 //        boolean bool = true;
 
 
@@ -96,7 +96,7 @@ public class Tipos {
             System.out.println(contador + "- Saí do while");
         }
      */
-/ Casting
+/* Casting
     double resultado = 0.0;
     int resultadoInt = (int) resultado; casting explicito
 
@@ -107,6 +107,7 @@ public class Tipos {
     int meuInt2 = Integer.parseInt(meuString); casting explicito
 
     String minhaString = String.valueOf(meuInt2);
+    */
     }
 }
 
