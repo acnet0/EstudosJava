@@ -5,13 +5,16 @@ public class Caneta {
 	private float ponta;
 	private boolean tampada;
 	
-	public void Caneta(){ //metodo construtor
+	public Caneta(String m, String c, float p) { //metodo construtor
+		this.modelo = m;
+		this.cor = c;
+		this.ponta = p;
 		this.tampar();
-		this.cor = "Azul";
+		
 	}
 	
 	public String getModelo() {
-		return this.modelo;
+		return this.modelo; 
 	}
 	public void setModelo(String m) {
 		this.modelo = m;
