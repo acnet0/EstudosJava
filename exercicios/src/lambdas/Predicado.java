@@ -11,3 +11,4 @@ public class Predicado {
 		System.out.println(isCaro.test(produto));
 	}
 }
+						
